@@ -1,0 +1,54 @@
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-g8wzw8h1 because the default path (/home/mriqc/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-s_2z2zcg because the default path (/home/mriqc/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-akp7u809 because the default path (/home/mriqc/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Traceback (most recent call last):
+  File "/opt/conda/bin/mriqc", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/lib/python3.9/site-packages/mriqc/cli/run.py", line 159, in main
+    mriqc_wf.run(**_plugin)
+  File "/opt/conda/lib/python3.9/site-packages/nipype/pipeline/engine/workflows.py", line 628, in run
+    execgraph = generate_expanded_graph(deepcopy(flatgraph))
+  File "/opt/conda/lib/python3.9/site-packages/nipype/pipeline/engine/utils.py", line 1188, in generate_expanded_graph
+    return _remove_nonjoin_identity_nodes(graph_in)
+  File "/opt/conda/lib/python3.9/site-packages/nipype/pipeline/engine/utils.py", line 847, in _remove_nonjoin_identity_nodes
+    _remove_identity_node(graph, node)
+  File "/opt/conda/lib/python3.9/site-packages/nipype/pipeline/engine/utils.py", line 875, in _remove_identity_node
+    _propagate_root_output(graph, node, field, connections)
+  File "/opt/conda/lib/python3.9/site-packages/nipype/pipeline/engine/utils.py", line 914, in _propagate_root_output
+    destnode.set_input(inport, value)
+  File "/opt/conda/lib/python3.9/site-packages/nipype/pipeline/engine/nodes.py", line 309, in set_input
+    setattr(self.inputs, parameter, deepcopy(val))
+  File "/opt/conda/lib/python3.9/site-packages/nipype/interfaces/base/traits_extension.py", line 330, in validate
+    value = super(File, self).validate(objekt, name, value, return_pathlike=True)
+  File "/opt/conda/lib/python3.9/site-packages/nipype/interfaces/base/traits_extension.py", line 135, in validate
+    self.error(objekt, name, str(value))
+  File "/opt/conda/lib/python3.9/site-packages/traits/base_trait_handler.py", line 74, in error
+    raise TraitError(
+traits.trait_errors.TraitError: The 'in_file' trait of a _SanitizeImageInputSpec instance must be a pathlike object or string representing an existing file, but a value of '/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw/sub-001/func/sub-001_task-sitrep_run-01_bold.nii.gz' <class 'str'> was specified.
