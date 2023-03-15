@@ -1,0 +1,6 @@
+WARNING (03/15/23 14:01:44): LAUNCHER_WORKDIR variable not set. Using current directory.
+using /tmp/launcher.5322027.hostlist.FPGb9zId to get hosts
+starting job on c206-032
+slurmstepd: error: *** JOB 5322027 ON c206-032 CANCELLED AT 2023-03-15T14:16:56 ***
+Killed by signal 15.
+Terminated
