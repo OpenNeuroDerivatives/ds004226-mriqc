@@ -1,7 +1,0 @@
-Warning: Permanently added 'c206-004' (ECDSA) to the list of known hosts.
-WARNING (03/15/23 12:23:07): LAUNCHER_WORKDIR variable not set. Using current directory.
-using /tmp/launcher.5321646.hostlist.s54FKtG1 to get hosts
-starting job on c206-004
-slurmstepd: error: *** JOB 5321646 ON c206-004 CANCELLED AT 2023-03-15T12:43:05 DUE TO TIME LIMIT ***
-Killed by signal 15.
-Terminated
