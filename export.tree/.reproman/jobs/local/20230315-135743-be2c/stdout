@@ -1,0 +1,18 @@
+[0;34mREMORA Notification: [0;34m  GPU monitoring is active, but not on this node type. [0m 
+Launcher: Setup complete.
+
+------------- SUMMARY ---------------
+   Number of hosts:    1
+   Working directory:  /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc
+   Processes per host: 5
+   Total processes:    5
+   Total jobs:         5
+   Scheduling method:  dynamic
+
+-------------------------------------
+Launcher: Starting parallel tasks...
+Launcher: Task 0 running job 1 on c206-032.frontera.tacc.utexas.edu (/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/runscript 0 >/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/stdout.0 2>/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/stderr.0)
+Launcher: Task 4 running job 2 on c206-032.frontera.tacc.utexas.edu (/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/runscript 1 >/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/stdout.1 2>/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/stderr.1)
+Launcher: Task 1 running job 3 on c206-032.frontera.tacc.utexas.edu (/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/runscript 2 >/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/stdout.2 2>/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/stderr.2)
+Launcher: Task 2 running job 4 on c206-032.frontera.tacc.utexas.edu (/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/runscript 3 >/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/stdout.3 2>/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/stderr.3)
+Launcher: Task 3 running job 5 on c206-032.frontera.tacc.utexas.edu (/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/runscript 4 >/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/stdout.4 2>/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/.reproman/jobs/local/20230315-135743-be2c/stderr.4)
