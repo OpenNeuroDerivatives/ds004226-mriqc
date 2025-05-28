@@ -1,0 +1,19 @@
+[ReproMan] pre-command...
+[ReproMan] executing command code/containers/scripts/singularity_cmd run code/containers/images/bids/bids-mriqc--22.0.6.sing sourcedata/raw /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc participant --participant-label '001' -w '/scratch1/03201/jbwexler/work_dir/mriqc/ds004226_sub-001' -vv --nprocs 11 --ants-nthreads 8 --verbose-reports --dsname ds004226 --ica --mem_gb 30
+[ReproMan] ... within /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc
+230309-19:26:48,474 cli IMPORTANT:
+	 
+    Running MRIQC version 22.0.6:
+      * BIDS dataset path: /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw.
+      * Output folder: /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc.
+      * Analysis levels: ['participant'].
+
+230309-19:26:48,776 nipype.workflow INFO:
+	 Building functional MRIQC workflow for files: /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw/sub-001/func/sub-001_task-sitrep_run-01_bold.nii.gz, /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw/sub-001/func/sub-001_task-sitrep_run-02_bold.nii.gz, /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw/sub-001/func/sub-001_task-sitrep_run-03_bold.nii.gz, /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw/sub-001/func/sub-001_task-sitrep_run-04_bold.nii.gz, /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw/sub-001/func/sub-001_task-sitrep_run-05_bold.nii.gz, /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw/sub-001/func/sub-001_task-sitrep_run-06_bold.nii.gz, /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw/sub-001/func/sub-001_task-sitrep_run-07_bold.nii.gz, /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw/sub-001/func/sub-001_task-sitrep_run-08_bold.nii.gz, /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw/sub-001/func/sub-001_task-sitrep_run-09_bold.nii.gz, /scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw/sub-001/func/sub-001_task-sitrep_run-10_bold.nii.gz.
+230309-19:26:57,46 nipype.workflow INFO:
+	 Building anatomical MRIQC workflow (</scratch1/03201/jbwexler/openneuro_derivatives/derivatives/mriqc/ds004226-mriqc/sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz>)..
+230309-19:27:57,899 cli WARNING:
+	 IMPORTANT: Anonymized quality metrics (IQMs) will be submitted to MRIQC's metrics repository. Submission of IQMs can be disabled using the ``--no-sub`` argument. Please visit https://mriqc.readthedocs.io/en/latest/dsa.html to revise MRIQC's Data Sharing Agreement.
+230309-19:27:58,195 nipype.workflow INFO:
+	 Workflow mriqc_wf settings: ['check', 'execution', 'logging', 'monitoring']
+[ReproMan] waiting for threshold of jobs to complete before continuing...
