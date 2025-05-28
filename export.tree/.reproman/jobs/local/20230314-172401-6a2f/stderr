@@ -1,7 +1,0 @@
-Warning: Permanently added 'c208-012' (ECDSA) to the list of known hosts.
-WARNING (03/14/23 21:27:15): LAUNCHER_WORKDIR variable not set. Using current directory.
-using /tmp/launcher.5319277.hostlist.rUYk94ck to get hosts
-starting job on c208-012
-slurmstepd: error: *** JOB 5319277 ON c208-012 CANCELLED AT 2023-03-15T05:27:09 DUE TO TIME LIMIT ***
-Killed by signal 15.
-Terminated
